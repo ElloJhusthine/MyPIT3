@@ -11,6 +11,6 @@ Base URL: https://mypit3.onrender.com/api/tasks/
 
 ## 🚀 Live Demo
 
- Backend (Render): https://mypit3.onrender.com
+ Backend (Render): https://mypit3.onrender.com/ 
 
-Frontend (Netlify): https://mypit3.netlify.app
+Frontend (Netlify): https://mypit3.netlify.app/
