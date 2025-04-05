@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = "http://localhost:8000/api/tasks/";
+const API_URL = "https://mypit3.onrender.com/api/tasks/";
 
 
 export const getTasks = () => axios.get(API_URL);
