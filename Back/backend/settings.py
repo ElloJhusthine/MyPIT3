@@ -134,7 +134,6 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # React Localhost
-    "https://willowy-valkyrie-d554d1.netlify.app",
-    "https://mypit3.netlify.app/",  # Add your deployed frontend URL
+    "http://localhost:3000",  # For local React dev
+    "https://mypit3.netlify.app/",  # Your real deployed frontend
 ]
