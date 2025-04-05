@@ -137,3 +137,10 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # For local React dev
     "https://mypit3.netlify.app/",  # Your real deployed frontend
 ]
+
+REST_FRAMEWORK = {
+    'DEFAULT_RENDERER_CLASSES': (
+        'rest_framework.renderers.JSONRenderer',
+    )
+}
+
