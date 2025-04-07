@@ -142,7 +142,6 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    "https://67f359c367495db7fff9758f--neon-cannoli-a70e14.netlify.app",
     "https://mypit3.netlify.app",  # ✅ add actual custom Netlify URL if it changes
 ]
 
