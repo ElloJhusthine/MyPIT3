@@ -46,6 +46,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',  # 👈 must be first
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -142,8 +143,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
     "https://67f359c367495db7fff9758f--neon-cannoli-a70e14.netlify.app",
-    "https://mypit3.netlify.app",  # if you later rename it
+    "https://mypit3.netlify.app",  # ✅ add actual custom Netlify URL if it changes
 ]
+
+
+CORS_ALLOW_ALL_ORIGINS = False  # extra safety
 
 
 
