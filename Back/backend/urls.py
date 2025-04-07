@@ -26,3 +26,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
 ]
+
+# NEW CODE HERE
+from todo.create_super import create_superuser
+create_superuser()
